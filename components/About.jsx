@@ -49,15 +49,15 @@ const qualificationData = [
         years: "2013 - 2017",
       },
       {
-        university: "SouthEast University",
-        qualification: "Bachelor of Computer Science and Engineering",
-        years: "2018 - 2020",
+        university: "Collectorate School & College, Rangpur",
+        qualification: "HSC",
+        years: "2009 - 2011",
       },
-      {
-        university: "SouthEast University",
-        qualification: "Bachelor of Computer Science and Engineering",
-        years: "2020 - 2024",
-      },
+      // {
+      //   university: "SouthEast University",
+      //   qualification: "Bachelor of Computer Science and Engineering",
+      //   years: "2020 - 2024",
+      // },
     ],
   },
   {
@@ -86,9 +86,12 @@ const skillData = [
   {
     title: "skills",
     data: [
-      { name: "React, Next.js, Tailwind, Bootstrap, antd, shadcn, CSS" },
+      {
+        name: "React, Next.js, Redux, Tailwind, Bootstrap, antd, shadcn, MUI, CSS, Firebase, Render, Heroku, JWT, nodemon, ZOD, Postman, Github,",
+      },
+      { name: "Node.JS, MongoDB, MySQL, Express" },
       { name: "Front-end Development" },
-      { name: "JavaScript, TypeScript" },
+      { name: "JavaScript, TypeScript, Linux" },
       { name: "Back-end Development" },
     ],
   },

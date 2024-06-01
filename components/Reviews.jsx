@@ -13,43 +13,40 @@ const reviewsData = [
     avatar: "/reviews/avatar-1.png",
     name: "Richard Thompson",
     job: "chef",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+    review: "Beautiful designs, intuitive interfaces, exceeded expectations.",
   },
   {
     avatar: "/reviews/avatar-2.png",
     name: "Everton Thomas",
     job: "Arcitect",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+    review: "Responsive layouts, visually stunning, seamless navigation.",
   },
   {
     avatar: "/reviews/avatar-3.png",
     name: "Jhon Doe",
     job: "Gamer",
-    review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+    review: "Robust backend, scalable architecture, flawless execution.",
   },
   {
     avatar: "/reviews/avatar-4.png",
     name: "Emily Smith",
     job: "Fashion Designer",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+      "Efficient database management, reliable APIs, exceptional performance.",
   },
   {
     avatar: "/reviews/avatar-5.png",
     name: "Kristian Sturt",
     job: "Doctor",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+      "Expertise in both front-end and full-stack development, invaluable asset.",
   },
   {
     avatar: "/reviews/avatar-6.png",
     name: "Elina Goudling",
     job: "Singer",
     review:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, rerum explicabo? Molestiae, xercitationem a officia facilis placeat quod temporibus laudantium",
+      "Exceptional skills, seamless integration, exceeded all expectations.",
   },
 ];
 

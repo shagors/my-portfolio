@@ -9,22 +9,22 @@ import {
 
 const servicesData = [
   {
-    icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis, doloribus quae dolorum eum sequi earum, nam asperiores sapiente debitis facilis.",
-  },
-  {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Front end Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis, doloribus quae dolorum eum sequi earum, nam asperiores sapiente debitis facilis.",
+      "I excel in React, Next.js, TypeScript, and Tailwind CSS for front-end development. Crafting dynamic, responsive interfaces with clean, scalable code is my forte. Let's collaborate to create captivating digital experiences for your audience.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "Full Stack Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis, doloribus quae dolorum eum sequi earum, nam asperiores sapiente debitis facilis.",
+      "Specializing in full-stack development, I proficiently wield Node.js, MongoDB, MySQL, and Express.js for robust backend solutions. Whether it's crafting APIs or managing databases, I ensure seamless functionality and performance.",
+  },
+  {
+    icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
+    title: "Give Technology Support",
+    description:
+      "I offer expert technology support, proficient in troubleshooting and system administration. With a focus on efficiency and user satisfaction, I ensure seamless operations across diverse tech environments.",
   },
 ];
 

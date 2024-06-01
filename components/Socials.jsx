@@ -4,31 +4,31 @@ import Link from "next/link";
 import {
   RiFacebookFill,
   RiGithubFill,
-  RiInstagramFill,
+  RiTwitterXFill,
   RiLinkedinFill,
   RiYoutubeFill,
 } from "react-icons/ri";
 
 const icons = [
+  // {
+  //   path: "/",
+  //   name: <RiYoutubeFill />,
+  // },
   {
-    path: "/",
-    name: <RiYoutubeFill />,
-  },
-  {
-    path: "/",
+    path: "https://www.linkedin.com/in/shajjad-shagor-3781407b/",
     name: <RiLinkedinFill />,
   },
   {
-    path: "/",
+    path: "https://github.com/shagors",
     name: <RiGithubFill />,
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/incorrectSHAGOR/",
     name: <RiFacebookFill />,
   },
   {
-    path: "/",
-    name: <RiInstagramFill />,
+    path: "https://twitter.com/shajjadshagor",
+    name: <RiTwitterXFill />,
   },
 ];
 

@@ -20,12 +20,12 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
-              Frontend Developer
+              Full Stack Developer
             </div>
             <h1 className="h1 mb-4">HI, my name is Shajjad Hossan</h1>
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              Brief description with insight into myself, my vocational journey,
-              and what I engage in professionally.
+              Building dynamic, responsive web applications with expertise in
+              front-end, back-end, and database management.
             </p>
 
             {/* buttons */}
