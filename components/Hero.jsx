@@ -36,9 +36,13 @@ const Hero = () => {
                 </Button>
               </Link>
 
-              <Button variant="secondary" className="gap-x-2">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1xdfy_DKkZUngDw8vO0Q5WaJ60nhb3Ykl"
+                variant="secondary"
+                className="gap-x-2 flex items-center border rounded-full px-4 font-medium hover:bg-[#fe6e58] hover:text-white"
+              >
                 Download CV <Download size={18} />
-              </Button>
+              </a>
             </div>
 
             {/* Socials */}
@@ -72,10 +76,11 @@ const Hero = () => {
               endCountText="k"
               badgeText="Happy Clients"
             />
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
+            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-2 -right-2"></div>
             <DevImg
-              containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-              imgSrc="/hero/developer.png"
+              containerStyles="bg-hero_shape w-[440px] h-[462px] bg-no-repeat relative bg-bottom rounded-full"
+              // imgSrc="/hero/developer.png"
+              imgSrc="/shajjad.png"
             />
           </div>
         </div>

@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { RiDeleteBin7Line, RiEditLine } from "react-icons/ri";
+import { toast } from "sonner";
 
 const Dashboard = () => {
   const [posts, setPosts] = useState([]);
@@ -28,6 +29,7 @@ const Dashboard = () => {
       await fetch(`https://my-portfolio-backend-kappa.vercel.app/items/${id}`, {
         method: "DELETE",
       });
+      toast.warning("Data Successfully deleted!");
       setPosts(posts.filter((post) => post.id !== id));
       fetchData();
     } catch (error) {
