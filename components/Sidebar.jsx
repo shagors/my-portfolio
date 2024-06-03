@@ -9,7 +9,9 @@ const Sidebar = () => {
   const routes = [
     { path: "/dashboard", label: "Project Show" },
     { path: "/dashboard/post-form", label: "Project Post" },
-    { path: "/dashboard/update-data", label: "Project Update" },
+    // { path: "/dashboard/update-data", label: "Project Update" },
+    { path: "/dashboard/blog-post", label: "Add Blog" },
+    { path: "/dashboard/show-blogs", label: "Show Blogs" },
   ];
 
   return (

@@ -4,14 +4,12 @@ import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { toast } from "sonner";
 
-const PostForm = () => {
+const BlogPost = () => {
   const [formData, setFormData] = useState({
     image: "",
-    category: "",
-    name: "",
+    title: "",
+    subtitle: "",
     description: "",
-    link: "",
-    github: "",
   });
   const router = useRouter();
 
@@ -36,7 +34,7 @@ const PostForm = () => {
 
     try {
       const response = await fetch(
-        "https://my-portfolio-backend-kappa.vercel.app/items",
+        "https://my-portfolio-backend-kappa.vercel.app/posts",
         {
           method: "POST",
           headers: {
@@ -49,8 +47,8 @@ const PostForm = () => {
       if (response.status === 201) {
         // Handle successful response
         toast.success("Data posted successfully.");
-        router.push("/dashboard", { scroll: false });
-        console.log("Data posted successfully");
+        router.push("/show-blogs", { scroll: false });
+        // console.log("Data posted successfully");
         // Reset form fields after successful submission
         setFormData({
           image: "",
@@ -72,26 +70,8 @@ const PostForm = () => {
 
   return (
     <div className="container mx-auto mt-8">
-      <h2 className="text-2xl font-bold mb-4">Post Form</h2>
+      <h2 className="text-2xl font-bold mb-4">Blog Post Form</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
-        {/* <div>
-          <label
-            htmlFor="image"
-            className="block text-lg font-medium text-gray-700"
-          >
-            Project Image
-          </label>
-          <input
-            type="file"
-            accept="image/*"
-            id="image"
-            name="image"
-            required
-            onChange={handleFileChange}
-            className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
-          />
-        </div> */}
-
         <div>
           <label
             htmlFor="image"
@@ -113,18 +93,18 @@ const PostForm = () => {
 
         <div>
           <label
-            htmlFor="category"
+            htmlFor="title"
             className="block text-lg font-medium text-gray-700"
           >
-            Category Of Project
+            Title Of Blog
           </label>
           <input
             type="text"
-            id="category"
-            name="category"
+            id="title"
+            name="title"
             required
             placeholder="React or next.js"
-            value={formData.category}
+            value={formData.title}
             onChange={handleChange}
             className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
           />
@@ -132,18 +112,18 @@ const PostForm = () => {
 
         <div>
           <label
-            htmlFor="name"
+            htmlFor="subtitle"
             className="block text-lg font-medium text-gray-700"
           >
-            Name Of Project
+            Subtitle Of Blog
           </label>
           <input
             type="text"
-            id="name"
-            name="name"
+            id="subtitle"
+            name="subtitle"
             required
-            placeholder="give project name"
-            value={formData.name}
+            placeholder="give subtitle"
+            value={formData.subtitle}
             onChange={handleChange}
             className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
           />
@@ -154,56 +134,18 @@ const PostForm = () => {
             htmlFor="description"
             className="block text-lg font-medium text-gray-700"
           >
-            Project Description
+            Blog Description
           </label>
           <textarea
             id="description"
             name="description"
             required
-            placeholder="give project description"
+            placeholder="give blog description"
             value={formData.description}
             onChange={handleChange}
             rows={3}
             className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
           ></textarea>
-        </div>
-
-        <div>
-          <label
-            htmlFor="link"
-            className="block text-lg font-medium text-gray-700"
-          >
-            Project Live Link
-          </label>
-          <input
-            type="text"
-            id="link"
-            name="link"
-            required
-            placeholder="give project live link"
-            value={formData.link}
-            onChange={handleChange}
-            className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
-          />
-        </div>
-
-        <div>
-          <label
-            htmlFor="github"
-            className="block text-lg font-medium text-gray-700"
-          >
-            Project GitHub
-          </label>
-          <input
-            type="text"
-            id="github"
-            name="github"
-            required
-            placeholder="give project github link"
-            value={formData.github}
-            onChange={handleChange}
-            className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md py-2 pl-5"
-          />
         </div>
         {/* button */}
         <div>
@@ -219,4 +161,4 @@ const PostForm = () => {
   );
 };
 
-export default PostForm;
+export default BlogPost;
