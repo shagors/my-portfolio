@@ -6,13 +6,13 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/food1.PNG",
     category: "react js",
-    name: "Food Website",
+    name: "Food Delivery Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum nostrum nesciunt dolorum eum deserunt.",
-    link: "/",
-    github: "/",
+      "This Food delivery project made with React, Redux, toolkit, bootstrap, slick-carousel, reactstrap, remixicon, react-slick.",
+    link: "https://food-delivery-red-six.vercel.app/home",
+    github: "https://github.com/shagors/react-food-delivery-app",
   },
   {
     image: "/work/4.png",
@@ -24,13 +24,13 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/2.png",
+    image: "/work/gym1.png",
     category: "react js",
     name: "GYM Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum nostrum nesciunt dolorum eum deserunt.",
-    link: "/",
-    github: "/",
+      "This website make with react, typescript and framer motion.This is branding single page website",
+    link: "https://yourevogym.vercel.app/",
+    github: "https://github.com/shagors/your-gym-react-typescript",
   },
   {
     image: "/work/1.png",
@@ -60,22 +60,22 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/1.png",
+    image: "/work/fullstack1.png",
     category: "fullstack",
-    name: "Food Supply Website",
+    name: "Doctor Appointment Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum nostrum nesciunt dolorum eum deserunt.",
-    link: "/",
-    github: "/",
+      "This is Full stack website with MERN stack. Here I add github link and check with this link",
+    link: "https://doctor-appointment-roan.vercel.app/",
+    github: "https://github.com/shagors/doctor-appointment",
   },
   {
-    image: "/work/2.png",
+    image: "/work/fullstack2.PNG",
     category: "fullstack",
-    name: "Sushi Website",
+    name: "Dynamic Dashboard",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum nostrum nesciunt dolorum eum deserunt.",
-    link: "/",
-    github: "/",
+      "This website MERN stack. This data came from mongodb database.",
+    link: "https://dashboard-frontend-1n45.onrender.com",
+    github: "https://github.com/shagors/mern-dashboard",
   },
 ];
 
