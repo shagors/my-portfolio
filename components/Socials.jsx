@@ -15,7 +15,7 @@ const icons = [
   //   name: <RiYoutubeFill />,
   // },
   {
-    path: "https://www.linkedin.com/in/shajjad-shagor-3781407b/",
+    path: "https://www.linkedin.com/in/shajjadshagor",
     name: <RiLinkedinFill />,
   },
   {
