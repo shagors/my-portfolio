@@ -21,12 +21,12 @@ const projectData = [
     github: "https://github.com/shagors/react-food-delivery-app",
   },
   {
-    image: "/work/4.png",
-    category: "react js",
+    image: "/work/shopify.png",
+    category: "shopify",
     name: "Food Supply Website",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatum nostrum nesciunt dolorum eum deserunt.",
-    link: "/",
+      "This is shopify project for Singapore based. This is company website here I do many custom code for custom design and many section.",
+    link: "https://www.wowomart.com/",
     github: "/",
   },
   {

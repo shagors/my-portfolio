@@ -89,6 +89,9 @@ const skillData = [
       {
         name: "React, Next.js, Redux, Tailwind, Bootstrap, antd, shadcn, MUI, CSS, Firebase, Render, Heroku, JWT, nodemon, ZOD, Postman, Github,",
       },
+      {
+        name: "Shopify, Shopify custom code, Theme customization, App make with API",
+      },
       { name: "Node.JS, MongoDB, MySQL, Express" },
       { name: "Front-end Development" },
       { name: "JavaScript, TypeScript, Linux" },

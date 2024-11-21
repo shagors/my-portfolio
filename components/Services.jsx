@@ -22,9 +22,9 @@ const servicesData = [
   },
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Give Technology Support",
+    title: "Shopify Theme customization and custom code",
     description:
-      "I offer expert technology support, proficient in troubleshooting and system administration. With a focus on efficiency and user satisfaction, I ensure seamless operations across diverse tech environments.",
+      "I offer expert shopify support, proficient in theme customization and custom code. With a focus on efficiency and user satisfaction, I ensure seamless operations across diverse tech environments.",
   },
 ];
 
