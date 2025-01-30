@@ -37,7 +37,7 @@ const Hero = () => {
               </Link>
 
               <a
-                href="https://drive.google.com/uc?export=download&id=1xdfy_DKkZUngDw8vO0Q5WaJ60nhb3Ykl"
+                href="https://drive.google.com/file/d/1jpmz6-Oe2H-2QDgceJ2stbQAB93O5JyK"
                 variant="secondary"
                 className="gap-x-2 flex items-center border rounded-full px-4 font-medium hover:bg-[#fe6e58] hover:text-white"
               >
